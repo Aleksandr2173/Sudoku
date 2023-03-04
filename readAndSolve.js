@@ -1,8 +1,6 @@
 // Подключить функции из файла sudoku.js.
 const sudoku = require("./sudoku");
 const fs = require("fs");
-//const numPuzzl= process.argv[2];
-const generateNames = require("./generateNames");
 
 function readAndSolve(error, fileData) {
   // Если чтение файла не удалось, выбросить ошибку с описанием проблемы и
